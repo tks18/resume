@@ -1,0 +1,48 @@
+{
+  "name": "Sudharshan TK",
+  "intro": "Chartered Accountant by Profession & Software Developer by Passion. I Create Elegant, Modern, Sleeky UI's. I Love Javascript, Nodejs & Flutter. Currently Focussing more on Backend Development Like Nodejs and Django. I am Also Interested in Topics such as Accounting, Finance, Taxation.",
+  "subtitle": "Chartered Accountant | Web Developer",
+  "image": "https://i.ibb.co/CWY7dSm/IMG-20220206-130734-Close-up.webp",
+  "address": "No. 71/36, 2nd Floor, TP Koil Street, Triplicane, Chennai - 600005, INDIA",
+  "socials": [
+    {
+      "icon": "mdi-linkedin",
+      "title": "@shantk18",
+      "link": "https://linkedin.com/in/shantk18"
+    },
+    {
+      "icon": "mdi-twitter",
+      "title": "@shantk18",
+      "link": "https://twitter.com/shantk18"
+    },
+    {
+      "icon": "mdi-instagram",
+      "title": "@shantk18",
+      "link": "https://instagram.com/shantk18"
+    },
+    {
+      "icon": "mdi-github",
+      "title": "@tks18",
+      "link": "https://github.com/tks18"
+    },
+    {
+      "icon": "mdi-quality-medium",
+      "title": "@tks18",
+      "link": "https://medium.com/@tks18"
+    },
+    {
+      "icon": "mdi-email-edit",
+      "title": "tksudharshan@gmail.com",
+      "link": "mailto:tksudharshan@infozy.tk"
+    }
+  ],
+  "phone": {
+    "num": "+917358528452",
+    "display": "+91-(735)-852-8452"
+  },
+  "website": {
+    "icon": "mdi-web",
+    "link": "https://sudharshan.tk",
+    "title": "Visit my Website"
+  }
+}
