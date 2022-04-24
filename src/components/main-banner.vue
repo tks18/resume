@@ -13,12 +13,15 @@
               :cols="ismobile ? 12 : 9"
               :align="ismobile ? 'center' : 'left'"
             >
-              <v-card-title v-if="!ismobile" class="text-h3 font-weight-black">
+              <v-card-title
+                v-if="!ismobile"
+                class="text-h3 font-weight-black dont-break"
+              >
                 {{ authorData.name }}
               </v-card-title>
               <v-card-subtitle
                 v-if="!ismobile"
-                class="text-body-1 font-weight-bold"
+                class="text-body-1 font-weight-bold dont-break"
               >
                 {{ authorData.subtitle }}
               </v-card-subtitle>
@@ -29,7 +32,16 @@
                 {{ authorData.subtitle }}
               </div>
               <v-card-text class="text-body-1">
-                {{ authorData.intro }}
+                <v-row>
+                  <v-col cols="12">
+                    <div class="text-h6 font-weight bold">About me</div>
+                    {{ authorData.intro }}
+                  </v-col>
+                  <v-col cols="12">
+                    <div class="text-h6 font-weight bold">Career Objective</div>
+                    {{ authorData.objective }}
+                  </v-col>
+                </v-row>
               </v-card-text>
               <v-card-text>
                 <v-btn
@@ -70,4 +82,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.dont-break {
+  word-break: normal;
+  word-wrap: normal;
+}
+</style>
