@@ -17,6 +17,13 @@
             {{ social.icon }}
           </v-icon>
         </v-btn>
+        <v-btn
+          v-if="resumeDownload"
+          rounded
+          @click="gotoUrl(resumeDownload.link)"
+        >
+          {{ resumeDownload.displayText }}
+        </v-btn>
       </v-card-title>
     </v-card>
   </v-footer>
@@ -27,6 +34,7 @@ import authorData from '@/data/authordata';
 export default {
   data: () => ({
     socials: authorData.socials,
+    resumeDownload: authorData.resumeDownload,
     gotoUrl,
   }),
 };

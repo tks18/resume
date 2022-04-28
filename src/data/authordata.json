@@ -5,6 +5,10 @@
   "subtitle": "Chartered Accountant | Web Developer",
   "image": "https://i.ibb.co/CWY7dSm/IMG-20220206-130734-Close-up.webp",
   "address": "No. 71/36, 2nd Floor, TP Koil Street, Triplicane, Chennai - 600005, INDIA",
+  "resumeDownload": {
+    "displayText": "Download My Resume",
+    "link": "https://sudharshan.tk/assets/downloads/resume/Sudharshan-tk-short.pdf"
+  },
   "socials": [
     {
       "icon": "mdi-linkedin",
@@ -106,6 +110,206 @@
       "title": "Primary Schooling",
       "subtitle": "2005 - 2010",
       "insitituteName": "Prince Matriculation School"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Technical Skills",
+      "subtitle": "Technical skills are sets of abilities or knowledge used to perform practical tasks",
+      "subSkills": [
+        {
+          "name": "GAAP"
+        },
+        {
+          "name": "Tax Preparation & Filing"
+        },
+        {
+          "name": "Tax Management"
+        },
+        {
+          "name": "Financial Statements"
+        },
+        {
+          "name": "Statutory Audits"
+        },
+        {
+          "name": "Tax Audits"
+        },
+        {
+          "name": "GST Returns"
+        },
+        {
+          "name": "Compliance"
+        },
+        {
+          "name": "Financial Management"
+        }
+      ]
+    },
+    {
+      "title": "IT skills",
+      "subtitle": "IT skills are hard or technical skills used in operating and manipulating technology.",
+      "subSkills": [
+        {
+          "name": "Advanced Excel"
+        },
+        {
+          "name": "MS Office Suite"
+        },
+        {
+          "name": "Python"
+        },
+        {
+          "name": "Javascript"
+        },
+        {
+          "name": "Ubuntu OS"
+        },
+        {
+          "name": "Kali Linux OS"
+        },
+        {
+          "name": "Web Development"
+        },
+        {
+          "name": "Windows Apps"
+        },
+        {
+          "name": "Android Apps"
+        },
+        {
+          "name": "Gsuite / AWS"
+        }
+      ]
+    },
+    {
+      "title": "Soft Skills",
+      "subtitle": "Soft skills are a cluster of productive personality traits that characterize one's relationships in a social environment.",
+      "subSkills": [
+        {
+          "name": "Attention to detail"
+        },
+        {
+          "name": "Communication"
+        },
+        {
+          "name": "Self-motivation"
+        },
+        {
+          "name": "Work ethic"
+        },
+        {
+          "name": "Empathy"
+        },
+        {
+          "name": "Creativity"
+        }
+      ]
+    },
+    {
+      "title": "Management Skills",
+      "subtitle": "Skills that enables to manage other effectively",
+      "subSkills": [
+        {
+          "name": "Leadership"
+        },
+        {
+          "name": "Problem solving"
+        },
+        {
+          "name": "Collaboration"
+        },
+        {
+          "name": "Adaptability"
+        },
+        {
+          "name": "Energetic"
+        },
+        {
+          "name": "Productivity"
+        },
+        {
+          "name": "Teamwork"
+        }
+      ]
+    }
+  ],
+  "extracurriculars": [
+    {
+      "title": "Dope-T-Rope",
+      "subtitle": "Blog Website",
+      "category": "Web Development",
+      "detailsList": [
+        "Blog website on latest tech updates",
+        "Currently Not Maintained, however the website is live"
+      ],
+      "actionsDetailList": [
+        {
+          "text": "Visit dopetrope.tk",
+          "icon": "mdi-web",
+          "link": "https://dopetrope.tk"
+        }
+      ]
+    },
+    {
+      "title": "Infozy Infotainment",
+      "subtitle": "Blog Website",
+      "category": "Web Development",
+      "detailsList": [
+        "Blog website on updates relating to Chartered Accountant Targeting Students as well as professionals"
+      ],
+      "actionsDetailList": [
+        {
+          "text": "Visit infozy.tk",
+          "icon": "mdi-web",
+          "link": "https://infozy.tk"
+        }
+      ]
+    },
+    {
+      "title": "Portfolio Website",
+      "subtitle": "Personal Portfolio Website",
+      "category": "Web Development",
+      "detailsList": [
+        "Portfolio Website of Myself Showcasing all the Projects currently under development and also showcasing other skills"
+      ],
+      "actionsDetailList": [
+        {
+          "text": "Visit sudharshan.tk",
+          "icon": "mdi-web",
+          "link": "https://sudharshan.tk"
+        }
+      ]
+    },
+    {
+      "title": "GSTR Return Tool",
+      "subtitle": "Python",
+      "category": "Windows App",
+      "detailsList": [
+        "Tool to Convert GSTR 1/2A Json Files to Excel/Consumable JSON's",
+        "GSTR 9/9C Automation is Work-in-Progress"
+      ],
+      "actionsDetailList": [
+        {
+          "text": "View Source Code",
+          "icon": "mdi-web",
+          "link": "https://github.com/tks18/gstr-json-2-excel"
+        }
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cricket"
+    },
+    {
+      "name": "Badminton"
+    },
+    {
+      "name": "Programming"
+    },
+    {
+      "name": "Travelling"
     }
   ]
 }
