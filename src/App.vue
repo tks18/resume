@@ -17,10 +17,11 @@ import ismobile from '@/helpers/ismobile';
 import mainBanner from '@/components/main-banner.vue';
 import mainFooter from '@/components/main-footer.vue';
 import resumeCards from '@/cards';
+import authorData from '@/data/authordata.json';
 export default {
   name: 'App',
   metaInfo: {
-    title: 'Resume | Sudharshan TK',
+    title: authorData.websiteConfig.title,
   },
   components: {
     'Main-Banner': mainBanner,
