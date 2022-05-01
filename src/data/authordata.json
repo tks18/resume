@@ -302,17 +302,30 @@
     }
   ],
   "interests": [
-    {
-      "name": "Cricket"
-    },
-    {
-      "name": "Badminton"
-    },
-    {
-      "name": "Programming"
-    },
-    {
-      "name": "Travelling"
-    }
+    "Auditing",
+    "Cricket",
+    "Badminton",
+    "Artificial Intelligence (AI)",
+    "Machine Learning",
+    "Nueral Networks",
+    "Income Taxes",
+    "Data Analysis",
+    "Data Management",
+    "Data Modeling",
+    "Microsoft Excel Automation",
+    "Markdown",
+    "OOP",
+    "Power Query",
+    "VueJS",
+    "Power Pivot",
+    "Flutter",
+    "Adobe Premiere",
+    "Adobe After Effects",
+    "Adobe Lightroom",
+    "Adobe Photoshop",
+    "Video Editing",
+    "Vlogging",
+    "Travelling",
+    "Power BI"
   ]
 }

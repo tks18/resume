@@ -11,7 +11,7 @@
           v-for="(interest, index) in interests"
           :key="index"
         >
-          {{ interest.name }}
+          {{ interest }}
         </v-chip>
       </v-chip-group>
     </v-col>
