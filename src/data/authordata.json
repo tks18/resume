@@ -10,7 +10,7 @@
   "address": "No. 71/36, 2nd Floor, TP Koil Street, Triplicane, Chennai - 600005, INDIA",
   "resumeDownload": {
     "displayText": "Download My Resume",
-    "link": "https://sudharshan.tk/assets/downloads/resume/Sudharshan-tk-short.pdf"
+    "link": "https://sudharshan.dev/assets/downloads/resume/Sudharshan-tk-short.pdf"
   },
   "socials": [
     {
@@ -40,8 +40,8 @@
     },
     {
       "icon": "mdi-email-edit",
-      "title": "hello@sudharshan.tk",
-      "link": "mailto:hello@sudharshan.tk"
+      "title": "hello@sudharshan.dev",
+      "link": "mailto:hello@sudharshan.dev"
     }
   ],
   "phone": {
@@ -50,7 +50,7 @@
   },
   "website": {
     "icon": "mdi-web",
-    "link": "https://sudharshan.tk",
+    "link": "https://sudharshan.dev",
     "title": "Visit my Website"
   },
   "workExperience": [
@@ -278,9 +278,9 @@
       ],
       "actionsDetailList": [
         {
-          "text": "Visit sudharshan.tk",
+          "text": "Visit sudharshan.dev",
           "icon": "mdi-web",
-          "link": "https://sudharshan.tk"
+          "link": "https://sudharshan.dev"
         }
       ]
     },
