@@ -56,10 +56,13 @@
   "workExperience": [
     {
       "title": "Price Waterhouse Coopers (PwC)",
-      "subtitle": "2022 - Present | Chennai",
+      "subtitle": "Mar 2022 - Present | Chennai",
       "position": "Associate Consultant | Technology Consulting",
       "detailsList": [
-        "Has been a Part of Oracle FCCS Implementation for Automotive Industry"
+        "Been part of Oracle FCCS & ERP Implementation team.",
+        "Developed artifacts starting from Metadata creation/updates, setting up Ownership module, catering to Intercompany eliminations in FCCS, designing web forms and data grids, creating validation accounts, Data locking.",
+        "Experience in Oracle Data Management & Financial Reporting Studio",
+        "Designed Multiple Statutory & MIS Reports Based on IND AS as required by the client."
       ],
       "actionsDetailList": [
         {
@@ -71,13 +74,13 @@
     },
     {
       "title": "Ford Rhodes Parks & Co. LLP",
-      "subtitle": "2019 - 2022 | Chennai",
+      "subtitle": "Mar 2019 - Mar 2022 | Chennai",
       "position": "Intern | Articleship",
       "detailsList": [
-        "Led Many teams for statutory audit, certifications, tax and GST audits of financial statements of large corporate and non-corporate clients in 3+ sectors, including a Private Ltd. Company whose turnover > 500 Crores.",
-        "Carried out Various GST assignments relating to Advisory & Compliances, including tax payments & Reconciliation (GSTR 2A to Books) Assignments",
-        "Managed Various Income Tax Filings from ITR 1 to ITR 7",
-        "Preparation of Books of Accounts & Financial Statements as per AS & Schedule III including cash flows of Corporate Entities."
+        "Performed statutory audit, certifications, Tax and GST audits of financial statements of large corporate and non-corporate clients.",
+        "Carried out Various GST assignments relating to Advisory & Compliances, including tax payments & Reconciliation (GSTR 2A to Books) Assignments.",
+        "Filed Various Income Tax Returns from ITR 1 to ITR 7.",
+        "Prepared Books of Accounts & Financial Statements as per Schedule III of Various Corporate Entities."
       ],
       "actionsDetailList": [
         {
