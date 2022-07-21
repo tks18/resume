@@ -1,6 +1,14 @@
 {
   "websiteConfig": {
-    "title": "Resume | Sudharshan TK"
+    "baseSite": "https://resume.sudharshan.dev/",
+    "title": "Resume | Sudharshan TK",
+    "twitterData": {
+      "type": "summary_large_image",
+      "username": "@shantk18",
+      "pic": "https://i.ibb.co/v1WvYQG/Home-Banner.png"
+    },
+    "keyWords": "Sudharshan TK, Resume, Portfolio, Shan.tk, https://sudharshan.dev, sudharshan.dev, sudharshan, Blog, Portfolio-blog",
+    "webSiteDesc": "Organized, top performer and goal-driven individual. Skilled at using Various Programming Languages such as Python & Javascript to Leverage Finance Functions to build a competitive advantage."
   },
   "name": "Sudharshan TK",
   "intro": "Chartered Accountant by Profession & Software Developer by Passion. I Create Elegant, Modern, Sleeky UI's. I Love Javascript, Nodejs & Flutter. Currently Focussing more on Backend Development Like Nodejs and Django. I am Also Interested in Topics such as Accounting, Finance, Taxation.",
@@ -10,7 +18,7 @@
   "address": "No. 71/36, 2nd Floor, TP Koil Street, Triplicane, Chennai - 600005, INDIA",
   "resumeDownload": {
     "displayText": "Download My Resume",
-    "link": "https://sudharshan.dev/assets/downloads/resume/Sudharshan-tk-short.pdf"
+    "link": "https://sudharshan.dev/assets/downloads/resume/sudharshantk_cv.pdf"
   },
   "socials": [
     {

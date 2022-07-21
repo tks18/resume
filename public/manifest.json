@@ -1,0 +1,23 @@
+{
+  "name": "Resume | Sudharshan TK",
+  "short_name": "Resume",
+  "theme_color": "#9C27B0",
+  "background_color": "#9C27B0",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "https://resume.sudharshan.dev/",
+  "description": "Organized, top performer and goal-driven individual. Skilled at using Various Programming Languages such as Python & Javascript to Leverage Finance Functions to build a competitive advantage.",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

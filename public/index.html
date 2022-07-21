@@ -3,9 +3,110 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="<%= htmlWebpackPlugin.options.desc %>" />
+    <meta name="keywords" content="<%= htmlWebpackPlugin.options.keywords %>" />
+
+    <!-- Twitter Card data -->
+    <meta
+      name="twitter:card"
+      content="<%= htmlWebpackPlugin.options.twitterData.type %>"
+    />
+    <meta
+      name="twitter:site"
+      content="<%= htmlWebpackPlugin.options.twitterData.username %>"
+    />
+    <meta
+      name="twitter:title"
+      content="<%= htmlWebpackPlugin.options.title %>"
+    />
+    <meta
+      name="twitter:description"
+      content="<%= htmlWebpackPlugin.options.desc %>"
+    />
+    <meta
+      name="twitter:image:src"
+      content="<%= htmlWebpackPlugin.options.twitterData.pic %>"
+    />
+    <!-- Twitter Card data - End -->
+
+    <!-- Open Graph data -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= htmlWebpackPlugin.options.url %>" />
+    <meta
+      property="og:title"
+      content="<%= htmlWebpackPlugin.options.title %>"
+    />
+    <meta
+      property="og:image"
+      content="<%= htmlWebpackPlugin.options.twitterData.pic %>"
+    />
+    <meta
+      property="og:description"
+      content="<%= htmlWebpackPlugin.options.desc %>"
+    />
+    <meta
+      property="og:site_name"
+      content="<%= htmlWebpackPlugin.options.title %>"
+    />
+    <!-- Open Graph data - End -->
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      href="/<%= htmlWebpackPlugin.options.BASE_URL %>icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/<%= htmlWebpackPlugin.options.BASE_URL %>icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/<%= htmlWebpackPlugin.options.BASE_URL %>icons/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/<%= htmlWebpackPlugin.options.BASE_URL %>icons/favicon-16x16.png"
+    />
+    <link
+      rel="shortcut icon"
+      href="/<%= htmlWebpackPlugin.options.BASE_URL %>icons/favicon.ico"
+    />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="<%= htmlWebpackPlugin.options.title %>"
+    />
+    <meta
+      name="application-name"
+      content="<%= htmlWebpackPlugin.options.title %>"
+    />
+    <meta name="msapplication-TileColor" content="#9C27B0" />
+    <meta
+      name="msapplication-TileImage"
+      content="/<%= htmlWebpackPlugin.options.BASE_URL %>icons/mstile-144x144.png"
+    />
+    <meta
+      name="msapplication-config"
+      content="/<%= htmlWebpackPlugin.options.BASE_URL %>icons/browserconfig.xml"
+    />
+    <link
+      rel="manifest"
+      href="<%= htmlWebpackPlugin.options.BASE_URL %>manifest.json"
+    />
+    <meta name="theme-color" content="#9C27B0" />
+    <!-- Favicons - End -->
+
+    <link rel="canonical" href="<%= htmlWebpackPlugin.options.url %>" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
@@ -24,6 +125,5 @@
       >
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>
