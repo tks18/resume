@@ -8,6 +8,7 @@
       <v-chip-group column>
         <v-chip
           color="primary"
+          :class="lightAccent ? 'black--text' : ''"
           v-for="(interest, index) in interests"
           :key="index"
         >
@@ -25,6 +26,7 @@ export default {
   data: () => ({
     interests: authorData.interests,
     ismobile: ismobile(),
+    lightAccent: authorData.websiteConfig.isAccentLight,
   }),
 };
 </script>

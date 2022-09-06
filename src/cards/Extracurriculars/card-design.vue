@@ -10,6 +10,7 @@
     <template #actions>
       <v-btn
         color="primary"
+        :class="lightAccent ? 'black--text' : ''"
         v-for="(action, index) in actionsDetailList"
         :key="index"
         @click="gotoUrl(action.link)"
@@ -23,6 +24,7 @@
 </template>
 
 <script>
+import authorData from '@/data/authordata.json';
 import detailCard from '../../components/details-card.vue';
 import gotoUrl from '@/helpers/url-navigator';
 
@@ -54,6 +56,7 @@ export default {
   },
   data: () => ({
     gotoUrl,
+    lightAccent: authorData.websiteConfig.isAccentLight,
   }),
 };
 </script>

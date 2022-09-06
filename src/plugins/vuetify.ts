@@ -1,7 +1,10 @@
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
+import authorData from '@/data/authordata.json';
 
 Vue.use(Vuetify);
+
+const accent = authorData.websiteConfig.accent;
 
 export default new Vuetify({
   theme: {
@@ -11,7 +14,7 @@ export default new Vuetify({
     dark: true,
     themes: {
       dark: {
-        primary: '#9C27B0',
+        primary: accent ? accent : '#ffed14',
         secondary: '#4A148C',
         accent: '#e1bee7',
         error: '#FF5252',

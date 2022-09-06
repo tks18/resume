@@ -16,7 +16,7 @@
     <v-col cols="12" align="center" class="py-1 mx-1">
       <v-chip
         color="primary"
-        class="mx-1 my-1"
+        :class="'mx-1 my-1 ' + (lightAccent ? 'black--text' : '')"
         v-for="(social, index) in authorData.socials"
         :key="index"
         @click="gotoUrl(social.link)"
@@ -51,6 +51,7 @@ export default {
   },
   data: () => ({
     authorData,
+    lightAccent: authorData.websiteConfig.isAccentLight,
   }),
 };
 </script>
