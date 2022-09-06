@@ -5,6 +5,7 @@
         <v-row>
           <v-col
             :cols="ismobile ? 12 : 6"
+            :class="lightAccent ? 'black--text' : ''"
             :align="ismobile ? 'center' : 'left'"
           >
             <strong class="subheading">
@@ -18,7 +19,7 @@
             <v-btn
               v-for="(social, index) in socials"
               :key="index"
-              class="mx-2"
+              :class="'mx-2 ' + (lightAccent ? 'black--text' : '')"
               icon
               @click="gotoUrl(social.link)"
             >
@@ -34,6 +35,8 @@
             <v-btn
               v-if="resumeDownload"
               rounded
+              outlined
+              :class="lightAccent ? 'black--text' : ''"
               @click="gotoUrl(resumeDownload.link)"
             >
               {{ resumeDownload.displayText }}
@@ -52,6 +55,7 @@ export default {
   data: () => ({
     socials: authorData.socials,
     resumeDownload: authorData.resumeDownload,
+    lightAccent: authorData.websiteConfig.isAccentLight,
     gotoUrl,
     ismobile: ismobile(),
   }),
